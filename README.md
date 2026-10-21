@@ -8,7 +8,7 @@ TLS uses the embedded ISRG Root X1 (`include/root_ca.h`).
 Run it once, after the console has connected to Pretendo (Nimbus set to Pretendo, then the Friends List opened online).
 
 ## Build
-Needs devkitARM + libctru and `3dsxtool`/`smdhtool`: `make`. To talk to another server: `make REGISTER_URL=https://host/protarium-connect/register`.
+Needs devkitARM + libctru and `3dsxtool`/`smdhtool`: `make`. To talk to another server: `make REGISTER_URL=https://host/protarium-connect/register`, for example `make REGISTER_URL=https://account.protarium.online/protarium-connect/register` for the protarium.online test.
 
 ## Provenance
 The original source was lost. `source/main.c` was rewritten from the behaviour of the released `ProtariumConnect.3dsx` (call sequence,
