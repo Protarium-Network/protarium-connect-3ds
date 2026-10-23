@@ -14,6 +14,9 @@
 static void fail(const char *what, Result res)
 {
 	printf("%s: %08lX\n", what, res);
+	if (res == 0xD8A0A046) { // HTTP module: no connection, usually a DNS lookup failure
+		puts("Cannot reach the server: check the Wi-Fi and the DNS of the connection.");
+	}
 }
 
 static void connect_account(void)
