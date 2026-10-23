@@ -7,7 +7,7 @@
 
 // Override at build time with: make REGISTER_URL=https://your.server/protarium-connect/register
 #ifndef REGISTER_URL
-#define REGISTER_URL "https://account.protarium.lol/protarium-connect/register"
+#define REGISTER_URL "https://account.protarium.online/protarium-connect/register"
 #endif
 #define PASSWORD_SIZE 0x80
 
