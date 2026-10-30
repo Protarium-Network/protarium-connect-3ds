@@ -3,6 +3,8 @@
 A small 3DS homebrew that links a console to a Protarium server. Protarium's self-hosted 3DS games sign consoles in with the NEX
 account the console got from Pretendo, so the server has to learn that account once. This app sends it.
 
+![qr code](./assets/qr.png)
+
 ## What it does
 
 1. Opens the friends service and reads the console's principal ID and NEX password
